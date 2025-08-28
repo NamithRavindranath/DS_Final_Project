@@ -16,11 +16,11 @@ Results:
 
 Baseline: ~50% accuracy (random-walk benchmark)
 
-Random Forest: ~53% accuracy, ROC-AUC ~0.55
+Random Forest: ~50% accuracy,
 
-XGBoost: ~55% accuracy, ROC-AUC ~0.58
+XGBoost: ~51% accuracy,
 
-LSTM: ~54% accuracy, ROC-AUC ~0.57
+LSTM: ~53% accuracy,
 
 Insights:
-SHAP analysis highlighted RSI, MACD, and Momentum as the most influential indicators. All ML models outperformed the baseline, with XGBoost achieving the strongest results.
+SHAP analysis highlighted RSI, MACD, and Momentum as the most influential indicators. All ML models outperformed the baseline, with LSTM achieving the strongest results.
